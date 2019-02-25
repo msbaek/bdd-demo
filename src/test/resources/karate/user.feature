@@ -1,7 +1,7 @@
 Feature: Testing a REST API with Karate
-  As a user
-  I want to look up a non-existent user's profile on github
-  So that I can be sure that the username can not be found on github
+  As a github user
+  In order to get user's repositories
+  I want to look up a user's profile on github
 
   Scenario: Testing valid GET endpoint
     Given url 'http://localhost:8080/user/get'
@@ -37,7 +37,7 @@ Feature: Testing a REST API with Karate
     Then status 200
     And match $ == {id:"#notnull",name:"John Smith"}
 
-  Scenario: Testing a POST endpoint with request body
+  Scenario: POST를 request body를 가지고 테스트
     Given url 'http://localhost:8080/user/create'
     And request { id: '1234' , name: 'John Smith'}
     When method POST
