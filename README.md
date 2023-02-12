@@ -106,3 +106,5 @@ public class KarateUnitTest {
 - [Cucumeber와 Gerkin에 대한 보다 자세한 사항](http://bit.ly/2V12nTZ)
 - [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development)
 - [karate-demo](https://github.com/intuit/karate/tree/master/karate-demo)
+- [karatelabs/karate: Test Automation Made Simple](https://github.com/karatelabs/karate)
+- [IDE Support · karatelabs/karate Wiki](https://github.com/karatelabs/karate/wiki/IDE-Support)
